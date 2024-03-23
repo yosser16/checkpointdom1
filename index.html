@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>  
+  <header style="background-color: gray;" id="site-header"> 
+    <div class="container">
+    
+   <h1 > <i class="fab fa-apple"></i> APPLE SHOPPING CART </h1>
+  </header> 
+
+
+  <div class="container">
+      <div class="cart" >
+        <div class="product">
+
+               <header>
+                <img src="image.jpg" alt="">
+             </header>
+    
+            <div class="content">
+                <h1> Iphone 11 <span><button class="delete-btn">X</button>
+                  <i class="fa-solid fa-heart"></i></span>  </h1> Smartphone 4G-LTE Advanced IP68 Dual SIM - Apple A13 Bionic Hexa-Core - RAM 4 Go - Ecran 6.1" 828 x 1792 - 64 Go - NFC/Bluetooth 5.0 - iOS 13
+            </div> 
+
+
+            <footer class="content" style="display: flex; justify-content: space-around;" >
+               <button id="p1" onclick="plusClick(this.id)" >+</button>
+        <p id="q1">0</p>
+        <button id="m1" onclick="minusClick(this.id)">-</button>
+        <span id="s1"> 200</span>
+        <p>Total = <span id="t1">0</span></p>
+      </div>
+    </div>
+   
+    <div class="product">
+      
+            <div class="container">
+      
+              
+                  <header>
+                      <img src="image2.jpg" alt="">
+                   </header>
+          
+                  <div class="content">
+                      <h1> Iphone 12 <span> <button class="delete-btn">X</button>
+                        <i class="fa-solid fa-heart"></i></span> </h1> Smartphone 4G-LTE Advanced IP68 Dual SIM - Apple A13 Bionic Hexa-Core - RAM 4 Go - Ecran 6.1" 828 x 1792 - 64 Go - NFC/Bluetooth 5.0 - iOS 13
+                  </div> 
+
+
+                  
+                  <footer class="content" style=" display: flex; justify-content: space-around;">
+                    
+              <button id="p2" onclick="plusClick(this.id)" >+</button>
+              <p id="q2">0</p>
+              <button id="m2" onclick="minusClick(this.id)">-</button>
+              <span id="s2"> 200</span>
+              <p>Total = <span id="t2">0</span></p> 
+            </div>
+          </div>
+          
+                       <div class="product">
+          
+                                         <div class="container">
+            
+                   
+                                                 <header> <img src="image3.jpg" alt=""></header>
+                
+                        <div class="content">
+                            <h1> Iphone 13 <span><button class="delete-btn">X</button>
+                              <i class="fa-solid fa-heart"></i></span> </h1> Smartphone 4G-LTE Advanced IP68 Dual SIM - Apple A13 Bionic Hexa-Core - RAM 4 Go - Ecran 6.1" 828 x 1792 - 64 Go - NFC/Bluetooth 5.0 - iOS 13
+                        </div> 
+                        <footer class="content" style=" display: flex; justify-content: space-around;" >
+                          
+                                         <button id="p3" onclick="plusClick(this.id)" >+</button>
+                                                   <p id="q3">0</p>
+                                                    <button id="m3" onclick="minusClick(this.id)">-</button>
+                                                           <span id="s3"> 200</span>
+                                                             <p>Total = <span id="t3">0</span></p>
+                          </div>
+                         </div>
+                         </footer>
+                     
+        
+      </main>
+
+      <div  class="right">
+        <h1 class="totalP">Total: <span id="totalP"></span>€</h1>
+        <a class="btn">VALID</a>
+      </div>
+
+    
+  
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+ 
+      
+      
+    
+      
